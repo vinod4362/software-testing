@@ -8,3 +8,4 @@ def test_count_words():
 def test_count_occurrences():
     assert count_occurrences("Hello world", "o") == 2
     assert count_occurrences("test", "t") == 2
+    assert count_occurrences("test", "t") == 2
